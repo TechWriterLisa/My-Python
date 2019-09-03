@@ -1,3 +1,3 @@
-#My Python
+# My Python
 <p>
-<img alt="Python"align="center" src="Icons/python.jpeg"/>
+<img alt="Python" src="Icons/python.jpeg"/>
