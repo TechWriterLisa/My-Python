@@ -1,15 +1,3 @@
-### * **Start** This is sample text.
-
-```
-Twinkle, twinkle, little star,
-	     How I wonder what you are! 
-		          Up above the world so high,
-		          Like a diamond in the sky. 
-Twinkle, twinkle, little star, 
-        How I wonder what you are
-```
-
-
 ### *  **2-1** Assign a message to a variable, and then print that message. 
 
 ### * **2-2** Assign a message to a variable, and then print that message.Then change the value of the varible to a new message, and print the new message.
