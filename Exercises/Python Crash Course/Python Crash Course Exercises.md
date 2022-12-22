@@ -172,7 +172,7 @@ print(car == 'audi')
 ### 3. If the alien is red, print a message that the player earned 15 points.
 ### 4. Write three versions of this program, making sure each message is printed for the appropriate color alien.
 
-### * **5-6** Write an *if-elif-else* cahin that determines a person’s stage of life. Set a value for the variable *age*, and then:
+### * **5-6** Write an *if-elif-else* chain that determines a person’s stage of life. Set a value for the variable *age*, and then:
 
 ### 1. If the person is less than 2 years old, print a message that the person is a baby.
 ### 2. If the person is at least 2 years old but less than 4, print a message that the person is a toddler.
