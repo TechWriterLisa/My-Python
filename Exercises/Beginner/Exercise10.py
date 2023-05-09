@@ -16,5 +16,9 @@ print(answer)
 #n3 = int( "%s%s%s" % (a,a,a) )
 #print (n1+n2+n3)
 
-
+'''
+myDict={"windSpeed":12, "size":10}
+val=sum(myDict.values())
+print(val)
+'''
 

@@ -1,7 +1,0 @@
-examstdate = (11, 12, 2014) 
-examstdate=str(examstdate)
-examstdate = examstdate.strip('()')
-mySplit = examstdate.split(', ')
-print(mySplit)
-myJoin='/'.join(mySplit)
-print('The examination will start from: ' + myJoin)
