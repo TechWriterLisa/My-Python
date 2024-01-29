@@ -2,11 +2,14 @@
 <html>
 <head>
     <title>My Weather App Project</title>
+    {% set image_url = url_for('static', filename='images/background.jpg') %}
     <style>
         body {
             /* Sets the background image */
-            background-image: url('myimage.jpg');
+           
+            background-image: url("{{ image_url }}");
 
+            
             /* Ensures the image covers the whole page */
             background-size: cover;
 
@@ -26,7 +29,14 @@
     </style>
 </head>
 <body>
-    
+    <h1></h1>
+    <form method="post" action="{{ url_for('index') }}">
+        <label for="city">Enter City Name:</label>
+        <input type="text" id="city" name="city" required>
+        <button type="submit">Get Weather Data</button>
+    </form>
+    <p>Temperature: {{ weather_data.temp }}</p>
+    <p>Description: {{ weather_data.desc }}</p>   
     
 </body>
 </html>
